@@ -11,7 +11,7 @@ function run() {
   /*
    * Load data
    */
-  d3.csv('scripts/data.csv', function(d) {
+  d3.csv('/scripts/data.csv', function(d) {
     return {
       bnppp:       +d.BNPpp,
       bnppl:       +d.BPNperLand,
